@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+.contain{
+    text-align: center;
+    background-color: #fff;
+}
+.header{
+    font-size: 35px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 200;
+    padding: 10px;
+    
+}
+.content{
+    padding: 10px;
+}
+.btn{
+    margin-bottom: 20px;
+    display: flex;
+}
+#number{
+    flex: 1;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: right;
+}
+#btn{
+    width: 30%;
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 20px;
+}
